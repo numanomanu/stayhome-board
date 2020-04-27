@@ -1,0 +1,77 @@
+.Board {
+  width: 2000px;
+  height: 2000px;
+  border: 1px solid #333;
+  position: relative;
+}
+
+.AddCard {
+  position: fixed;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  z-index: 1000;
+  background: white;
+  margin: 12px;
+}
+
+.Card {
+  border: 1px solid #bdbdbd;
+  padding: 20px;
+  position: absolute;
+  min-width: 110px;
+  min-height: 110px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 15px;
+  transition: 0.07s;
+  opacity: 0.99;
+}
+
+.DeleteBtn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  opacity: 0.5;
+  border: none;
+  background: transparent;
+}
+
+.EditableText {
+  min-width: 80px;
+  min-height: 80px;
+  margin-top: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.92rem;
+  line-height: 1rem;
+  font-family: "M PLUS Rounded 1c";
+  background: transparent;
+  overflow: hidden;
+}
+
+.Text {
+  padding-right: 12px;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-family: "M PLUS Rounded 1c";
+}
+
+textarea:focus {
+  outline: 0;
+}
+
+.ColorSelector {
+  position: absolute;
+  top: 30px;
+  right: 9px;
+}
+.ColorCircle {
+  width: 10px;
+  height: 10px;
+  margin: 2px;
+  padding: 2px;
+  border: solid 1px #dedede;
+  border-radius: 50%;
+}
