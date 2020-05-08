@@ -3,6 +3,8 @@ stayhome-board is a super simple online sticky note collaboration tool.
 
 Code is too short, you can make it your self!
 
+demo: [https://stayhome-board.firebaseapp.com/demo](https://stayhome-board.firebaseapp.com/demo)
+
 ![result](https://user-images.githubusercontent.com/11643610/80408949-fd402200-8902-11ea-9029-70d283b73b76.gif)
 
 ### install
